@@ -9,6 +9,6 @@ public class DemoController {
 
 	@GetMapping("/Portada")
 	public String Portada(){
-		return "/Portada";
+		return "Portada";
 	}
 }
